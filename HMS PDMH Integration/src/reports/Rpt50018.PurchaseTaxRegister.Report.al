@@ -350,6 +350,7 @@ report 50018 "Purchase Tax Register"
         ExcelBuf.AddColumn('Item No./GL No.', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Item No.
         ExcelBuf.AddColumn('Item Description', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Item Description
         ExcelBuf.AddColumn('Posting Date', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Posting Date
+        ExcelBuf.AddColumn('Document Date', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Posting Date
         ExcelBuf.AddColumn('Vendor Invoice/Cr. Memo No.', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Vendor Invoice No.
         ExcelBuf.AddColumn('Place Of Supply', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Seller State
         ExcelBuf.AddColumn('Buy-from Vendor No.', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Buy-from Vendor No.
@@ -466,6 +467,7 @@ report 50018 "Purchase Tax Register"
             ExcelBuf.AddColumn("Purch. Inv. Line".Description + '' + "Purch. Inv. Line"."Description 2", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//ItemName
 
         ExcelBuf.AddColumn(("Purch. Inv. Line"."Posting Date"), false, '', false, false, false, '', ExcelBuf."Cell Type"::Date);//Posting Date
+        ExcelBuf.AddColumn((PurchInvHeader."Document Date"), false, '', false, false, false, '', ExcelBuf."Cell Type"::Date);//Document Date
         IF PurchInvHeader."Vendor Invoice No." <> '' then
             ExcelBuf.AddColumn(PurchInvHeader."Vendor Invoice No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text)//Vendor Invoice No_
         else
@@ -702,6 +704,8 @@ report 50018 "Purchase Tax Register"
             ExcelBuf.AddColumn("Purch. Cr. Memo Line".Description + '' + "Purch. Cr. Memo Line"."Description 2", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//ItemName
 
         ExcelBuf.AddColumn(("Purch. Cr. Memo Line"."Posting Date"), false, '', false, false, false, '', ExcelBuf."Cell Type"::Date);//Posting Date
+        ExcelBuf.AddColumn(("Purch. Cr. Memo Line"."Posting Date"), false, '', false, false, false, '', ExcelBuf."Cell Type"::Date);//Posting Date
+        ExcelBuf.AddColumn((PurchCrMemoHdr."Document Date"), false, '', false, false, false, '', ExcelBuf."Cell Type"::Date);//Document Date
         IF PurchCrMemoHdr."Vendor Cr. Memo No." <> '' then
             ExcelBuf.AddColumn(PurchCrMemoHdr."Vendor Cr. Memo No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text)//Vendor Invoice No_
         else

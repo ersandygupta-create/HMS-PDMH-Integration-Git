@@ -24,301 +24,6 @@
       <rd:DataSourceID>37e1c5fe-0a7a-4658-9ff3-46d13690fed4</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="ReferenceCap">
-          <DataField>ReferenceCap</DataField>
-        </Field>
-        <Field Name="DateFilter">
-          <DataField>DateFilter</DataField>
-        </Field>
-        <Field Name="DateFilterCaption">
-          <DataField>DateFilterCaption</DataField>
-        </Field>
-        <Field Name="TodayDate">
-          <DataField>TodayDate</DataField>
-        </Field>
-        <Field Name="Todaytime">
-          <DataField>Todaytime</DataField>
-        </Field>
-        <Field Name="No_GLAccount">
-          <DataField>No_GLAccount</DataField>
-        </Field>
-        <Field Name="Name_GLAccount">
-          <DataField>Name_GLAccount</DataField>
-        </Field>
-        <Field Name="Vend_Address">
-          <DataField>Vend_Address</DataField>
-        </Field>
-        <Field Name="Vend_Mobile_Phone_No_">
-          <DataField>Vend_Mobile_Phone_No_</DataField>
-        </Field>
-        <Field Name="Vend_E_Mail">
-          <DataField>Vend_E_Mail</DataField>
-        </Field>
-        <Field Name="Vend_P_A_N__No_">
-          <DataField>Vend_P_A_N__No_</DataField>
-        </Field>
-        <Field Name="Vend_GST_Registration_No_">
-          <DataField>Vend_GST_Registration_No_</DataField>
-        </Field>
-        <Field Name="OpenBal">
-          <DataField>OpenBal</DataField>
-        </Field>
-        <Field Name="OpenBalFormat">
-          <DataField>OpenBalFormat</DataField>
-        </Field>
-        <Field Name="BalAtDate">
-          <DataField>BalAtDate</DataField>
-        </Field>
-        <Field Name="BalAtDateFormat">
-          <DataField>BalAtDateFormat</DataField>
-        </Field>
-        <Field Name="OpeningDRorCR">
-          <DataField>OpeningDRorCR</DataField>
-        </Field>
-        <Field Name="ClosingDrorCR">
-          <DataField>ClosingDrorCR</DataField>
-        </Field>
-        <Field Name="PdateCaption">
-          <DataField>PdateCaption</DataField>
-        </Field>
-        <Field Name="DDateCaption">
-          <DataField>DDateCaption</DataField>
-        </Field>
-        <Field Name="DocNoCaption">
-          <DataField>DocNoCaption</DataField>
-        </Field>
-        <Field Name="DocTypeCaption">
-          <DataField>DocTypeCaption</DataField>
-        </Field>
-        <Field Name="BalAccTypeCap">
-          <DataField>BalAccTypeCap</DataField>
-        </Field>
-        <Field Name="BalAccNoCaption">
-          <DataField>BalAccNoCaption</DataField>
-        </Field>
-        <Field Name="LineNarrCaption">
-          <DataField>LineNarrCaption</DataField>
-        </Field>
-        <Field Name="DrAmtCaption">
-          <DataField>DrAmtCaption</DataField>
-        </Field>
-        <Field Name="CrAmtCaption">
-          <DataField>CrAmtCaption</DataField>
-        </Field>
-        <Field Name="RunBalCaption">
-          <DataField>RunBalCaption</DataField>
-        </Field>
-        <Field Name="UserIDCaption">
-          <DataField>UserIDCaption</DataField>
-        </Field>
-        <Field Name="SourceNoCaption">
-          <DataField>SourceNoCaption</DataField>
-        </Field>
-        <Field Name="SourceNameCaption">
-          <DataField>SourceNameCaption</DataField>
-        </Field>
-        <Field Name="OpenBalCap">
-          <DataField>OpenBalCap</DataField>
-        </Field>
-        <Field Name="CloseBalCap">
-          <DataField>CloseBalCap</DataField>
-        </Field>
-        <Field Name="COMPANYNAME">
-          <DataField>COMPANYNAME</DataField>
-        </Field>
-        <Field Name="Comp_Picture">
-          <DataField>Comp_Picture</DataField>
-        </Field>
-        <Field Name="Comp_Address">
-          <DataField>Comp_Address</DataField>
-        </Field>
-        <Field Name="Comp_Website">
-          <DataField>Comp_Website</DataField>
-        </Field>
-        <Field Name="Comp_PAN">
-          <DataField>Comp_PAN</DataField>
-        </Field>
-        <Field Name="comp_GSTNo">
-          <DataField>comp_GSTNo</DataField>
-        </Field>
-        <Field Name="ReportCap">
-          <DataField>ReportCap</DataField>
-        </Field>
-        <Field Name="AmtCapt">
-          <DataField>AmtCapt</DataField>
-        </Field>
-        <Field Name="OpenBal1">
-          <DataField>OpenBal1</DataField>
-        </Field>
-        <Field Name="OpenBal1Format">
-          <DataField>OpenBal1Format</DataField>
-        </Field>
-        <Field Name="CloseBal1">
-          <DataField>CloseBal1</DataField>
-        </Field>
-        <Field Name="CloseBal1Format">
-          <DataField>CloseBal1Format</DataField>
-        </Field>
-        <Field Name="VendorNo_">
-          <DataField>VendorNo_</DataField>
-        </Field>
-        <Field Name="SRNo">
-          <DataField>SRNo</DataField>
-        </Field>
-        <Field Name="VendInvNo">
-          <DataField>VendInvNo</DataField>
-        </Field>
-        <Field Name="EntryNo_VendorLedgerEntry">
-          <DataField>EntryNo_VendorLedgerEntry</DataField>
-        </Field>
-        <Field Name="SG_Clearing_File_No_">
-          <DataField>SG_Clearing_File_No_</DataField>
-        </Field>
-        <Field Name="DebitAmount_GLEntry">
-          <DataField>DebitAmount_GLEntry</DataField>
-        </Field>
-        <Field Name="DebitAmount_GLEntryFormat">
-          <DataField>DebitAmount_GLEntryFormat</DataField>
-        </Field>
-        <Field Name="CreditAmount_GLEntry">
-          <DataField>CreditAmount_GLEntry</DataField>
-        </Field>
-        <Field Name="CreditAmount_GLEntryFormat">
-          <DataField>CreditAmount_GLEntryFormat</DataField>
-        </Field>
-        <Field Name="Remaining_Amt___LCY_">
-          <DataField>Remaining_Amt___LCY_</DataField>
-        </Field>
-        <Field Name="Remaining_Amt___LCY_Format">
-          <DataField>Remaining_Amt___LCY_Format</DataField>
-        </Field>
-        <Field Name="GlobalDimension1Code_VendorLedgerEntry">
-          <DataField>GlobalDimension1Code_VendorLedgerEntry</DataField>
-        </Field>
-        <Field Name="GlobalDimension2Code_VendorLedgerEntry">
-          <DataField>GlobalDimension2Code_VendorLedgerEntry</DataField>
-        </Field>
-        <Field Name="PostingDate_GLEntry">
-          <DataField>PostingDate_GLEntry</DataField>
-        </Field>
-        <Field Name="vendposgrpdesc">
-          <DataField>vendposgrpdesc</DataField>
-        </Field>
-        <Field Name="DocumentType_GLEntry">
-          <DataField>DocumentType_GLEntry</DataField>
-        </Field>
-        <Field Name="DocumentNo_GLEntry">
-          <DataField>DocumentNo_GLEntry</DataField>
-        </Field>
-        <Field Name="Amount_GLEntry">
-          <DataField>Amount_GLEntry</DataField>
-        </Field>
-        <Field Name="Amount_GLEntryFormat">
-          <DataField>Amount_GLEntryFormat</DataField>
-        </Field>
-        <Field Name="DocumentDate_GLEntry">
-          <DataField>DocumentDate_GLEntry</DataField>
-        </Field>
-        <Field Name="BalAccountType_GLEntry">
-          <DataField>BalAccountType_GLEntry</DataField>
-        </Field>
-        <Field Name="BalAccountNo_GLEntry">
-          <DataField>BalAccountNo_GLEntry</DataField>
-        </Field>
-        <Field Name="LineNarration_GLEntry">
-          <DataField>LineNarration_GLEntry</DataField>
-        </Field>
-        <Field Name="RunningBal">
-          <DataField>RunningBal</DataField>
-        </Field>
-        <Field Name="RunningBalFormat">
-          <DataField>RunningBalFormat</DataField>
-        </Field>
-        <Field Name="RunningBal1">
-          <DataField>RunningBal1</DataField>
-        </Field>
-        <Field Name="RunningBal1Format">
-          <DataField>RunningBal1Format</DataField>
-        </Field>
-        <Field Name="UserID_GLEntry">
-          <DataField>UserID_GLEntry</DataField>
-        </Field>
-        <Field Name="RunningBalanceCRorDR">
-          <DataField>RunningBalanceCRorDR</DataField>
-        </Field>
-        <Field Name="TotalDebitAmt">
-          <DataField>TotalDebitAmt</DataField>
-        </Field>
-        <Field Name="TotalDebitAmtFormat">
-          <DataField>TotalDebitAmtFormat</DataField>
-        </Field>
-        <Field Name="TotalCreditAmt">
-          <DataField>TotalCreditAmt</DataField>
-        </Field>
-        <Field Name="TotalCreditAmtFormat">
-          <DataField>TotalCreditAmtFormat</DataField>
-        </Field>
-        <Field Name="GlobalDim">
-          <DataField>GlobalDim</DataField>
-        </Field>
-        <Field Name="GLAccount">
-          <DataField>GLAccount</DataField>
-        </Field>
-        <Field Name="GLAccountName">
-          <DataField>GLAccountName</DataField>
-        </Field>
-        <Field Name="DebitTemp">
-          <DataField>DebitTemp</DataField>
-        </Field>
-        <Field Name="DebitTempFormat">
-          <DataField>DebitTempFormat</DataField>
-        </Field>
-        <Field Name="CreditTemp">
-          <DataField>CreditTemp</DataField>
-        </Field>
-        <Field Name="CreditTempFormat">
-          <DataField>CreditTempFormat</DataField>
-        </Field>
-        <Field Name="AccountNo">
-          <DataField>AccountNo</DataField>
-        </Field>
-        <Field Name="AccountName">
-          <DataField>AccountName</DataField>
-        </Field>
-        <Field Name="DocNo_TempGL">
-          <DataField>DocNo_TempGL</DataField>
-        </Field>
-        <Field Name="txtChequeNo">
-          <DataField>txtChequeNo</DataField>
-        </Field>
-        <Field Name="dtChequeDate">
-          <DataField>dtChequeDate</DataField>
-        </Field>
-        <Field Name="decTDSAmount">
-          <DataField>decTDSAmount</DataField>
-        </Field>
-        <Field Name="decTDSAmountFormat">
-          <DataField>decTDSAmountFormat</DataField>
-        </Field>
-        <Field Name="decTDSBaseAmount">
-          <DataField>decTDSBaseAmount</DataField>
-        </Field>
-        <Field Name="decTDSBaseAmountFormat">
-          <DataField>decTDSBaseAmountFormat</DataField>
-        </Field>
-        <Field Name="cdAssessCode">
-          <DataField>cdAssessCode</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -4264,12 +3969,6 @@
       </Page>
     </ReportSection>
   </ReportSections>
-  <ReportParametersLayout>
-    <GridLayoutDefinition>
-      <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
-    </GridLayoutDefinition>
-  </ReportParametersLayout>
   <Code>Public Function BlankZero(ByVal Value As Decimal)
     if Value = 0 then
         Return ""
@@ -4307,4 +4006,299 @@ End Function
 </Code>
   <Language>=User!Language</Language>
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="ReferenceCap">
+          <DataField>ReferenceCap</DataField>
+        </Field>
+        <Field Name="DateFilter">
+          <DataField>DateFilter</DataField>
+        </Field>
+        <Field Name="DateFilterCaption">
+          <DataField>DateFilterCaption</DataField>
+        </Field>
+        <Field Name="TodayDate">
+          <DataField>TodayDate</DataField>
+        </Field>
+        <Field Name="Todaytime">
+          <DataField>Todaytime</DataField>
+        </Field>
+        <Field Name="No_GLAccount">
+          <DataField>No_GLAccount</DataField>
+        </Field>
+        <Field Name="Name_GLAccount">
+          <DataField>Name_GLAccount</DataField>
+        </Field>
+        <Field Name="Vend_Address">
+          <DataField>Vend_Address</DataField>
+        </Field>
+        <Field Name="Vend_Mobile_Phone_No_">
+          <DataField>Vend_Mobile_Phone_No_</DataField>
+        </Field>
+        <Field Name="Vend_E_Mail">
+          <DataField>Vend_E_Mail</DataField>
+        </Field>
+        <Field Name="Vend_P_A_N__No_">
+          <DataField>Vend_P_A_N__No_</DataField>
+        </Field>
+        <Field Name="Vend_GST_Registration_No_">
+          <DataField>Vend_GST_Registration_No_</DataField>
+        </Field>
+        <Field Name="OpenBal">
+          <DataField>OpenBal</DataField>
+        </Field>
+        <Field Name="OpenBalFormat">
+          <DataField>OpenBalFormat</DataField>
+        </Field>
+        <Field Name="BalAtDate">
+          <DataField>BalAtDate</DataField>
+        </Field>
+        <Field Name="BalAtDateFormat">
+          <DataField>BalAtDateFormat</DataField>
+        </Field>
+        <Field Name="OpeningDRorCR">
+          <DataField>OpeningDRorCR</DataField>
+        </Field>
+        <Field Name="ClosingDrorCR">
+          <DataField>ClosingDrorCR</DataField>
+        </Field>
+        <Field Name="PdateCaption">
+          <DataField>PdateCaption</DataField>
+        </Field>
+        <Field Name="DDateCaption">
+          <DataField>DDateCaption</DataField>
+        </Field>
+        <Field Name="DocNoCaption">
+          <DataField>DocNoCaption</DataField>
+        </Field>
+        <Field Name="DocTypeCaption">
+          <DataField>DocTypeCaption</DataField>
+        </Field>
+        <Field Name="BalAccTypeCap">
+          <DataField>BalAccTypeCap</DataField>
+        </Field>
+        <Field Name="BalAccNoCaption">
+          <DataField>BalAccNoCaption</DataField>
+        </Field>
+        <Field Name="LineNarrCaption">
+          <DataField>LineNarrCaption</DataField>
+        </Field>
+        <Field Name="DrAmtCaption">
+          <DataField>DrAmtCaption</DataField>
+        </Field>
+        <Field Name="CrAmtCaption">
+          <DataField>CrAmtCaption</DataField>
+        </Field>
+        <Field Name="RunBalCaption">
+          <DataField>RunBalCaption</DataField>
+        </Field>
+        <Field Name="UserIDCaption">
+          <DataField>UserIDCaption</DataField>
+        </Field>
+        <Field Name="SourceNoCaption">
+          <DataField>SourceNoCaption</DataField>
+        </Field>
+        <Field Name="SourceNameCaption">
+          <DataField>SourceNameCaption</DataField>
+        </Field>
+        <Field Name="OpenBalCap">
+          <DataField>OpenBalCap</DataField>
+        </Field>
+        <Field Name="CloseBalCap">
+          <DataField>CloseBalCap</DataField>
+        </Field>
+        <Field Name="COMPANYNAME">
+          <DataField>COMPANYNAME</DataField>
+        </Field>
+        <Field Name="Comp_Picture">
+          <DataField>Comp_Picture</DataField>
+        </Field>
+        <Field Name="Comp_Address">
+          <DataField>Comp_Address</DataField>
+        </Field>
+        <Field Name="Comp_Website">
+          <DataField>Comp_Website</DataField>
+        </Field>
+        <Field Name="Comp_PAN">
+          <DataField>Comp_PAN</DataField>
+        </Field>
+        <Field Name="comp_GSTNo">
+          <DataField>comp_GSTNo</DataField>
+        </Field>
+        <Field Name="ReportCap">
+          <DataField>ReportCap</DataField>
+        </Field>
+        <Field Name="AmtCapt">
+          <DataField>AmtCapt</DataField>
+        </Field>
+        <Field Name="OpenBal1">
+          <DataField>OpenBal1</DataField>
+        </Field>
+        <Field Name="OpenBal1Format">
+          <DataField>OpenBal1Format</DataField>
+        </Field>
+        <Field Name="CloseBal1">
+          <DataField>CloseBal1</DataField>
+        </Field>
+        <Field Name="CloseBal1Format">
+          <DataField>CloseBal1Format</DataField>
+        </Field>
+        <Field Name="VendorNo_">
+          <DataField>VendorNo_</DataField>
+        </Field>
+        <Field Name="SRNo">
+          <DataField>SRNo</DataField>
+        </Field>
+        <Field Name="VendInvNo">
+          <DataField>VendInvNo</DataField>
+        </Field>
+        <Field Name="EntryNo_VendorLedgerEntry">
+          <DataField>EntryNo_VendorLedgerEntry</DataField>
+        </Field>
+        <Field Name="SG_Clearing_File_No_">
+          <DataField>SG_Clearing_File_No_</DataField>
+        </Field>
+        <Field Name="DebitAmount_GLEntry">
+          <DataField>DebitAmount_GLEntry</DataField>
+        </Field>
+        <Field Name="DebitAmount_GLEntryFormat">
+          <DataField>DebitAmount_GLEntryFormat</DataField>
+        </Field>
+        <Field Name="CreditAmount_GLEntry">
+          <DataField>CreditAmount_GLEntry</DataField>
+        </Field>
+        <Field Name="CreditAmount_GLEntryFormat">
+          <DataField>CreditAmount_GLEntryFormat</DataField>
+        </Field>
+        <Field Name="Remaining_Amt___LCY_">
+          <DataField>Remaining_Amt___LCY_</DataField>
+        </Field>
+        <Field Name="Remaining_Amt___LCY_Format">
+          <DataField>Remaining_Amt___LCY_Format</DataField>
+        </Field>
+        <Field Name="GlobalDimension1Code_VendorLedgerEntry">
+          <DataField>GlobalDimension1Code_VendorLedgerEntry</DataField>
+        </Field>
+        <Field Name="GlobalDimension2Code_VendorLedgerEntry">
+          <DataField>GlobalDimension2Code_VendorLedgerEntry</DataField>
+        </Field>
+        <Field Name="PostingDate_GLEntry">
+          <DataField>PostingDate_GLEntry</DataField>
+        </Field>
+        <Field Name="vendposgrpdesc">
+          <DataField>vendposgrpdesc</DataField>
+        </Field>
+        <Field Name="DocumentType_GLEntry">
+          <DataField>DocumentType_GLEntry</DataField>
+        </Field>
+        <Field Name="DocumentNo_GLEntry">
+          <DataField>DocumentNo_GLEntry</DataField>
+        </Field>
+        <Field Name="Amount_GLEntry">
+          <DataField>Amount_GLEntry</DataField>
+        </Field>
+        <Field Name="Amount_GLEntryFormat">
+          <DataField>Amount_GLEntryFormat</DataField>
+        </Field>
+        <Field Name="DocumentDate_GLEntry">
+          <DataField>DocumentDate_GLEntry</DataField>
+        </Field>
+        <Field Name="BalAccountType_GLEntry">
+          <DataField>BalAccountType_GLEntry</DataField>
+        </Field>
+        <Field Name="BalAccountNo_GLEntry">
+          <DataField>BalAccountNo_GLEntry</DataField>
+        </Field>
+        <Field Name="LineNarration_GLEntry">
+          <DataField>LineNarration_GLEntry</DataField>
+        </Field>
+        <Field Name="RunningBal">
+          <DataField>RunningBal</DataField>
+        </Field>
+        <Field Name="RunningBalFormat">
+          <DataField>RunningBalFormat</DataField>
+        </Field>
+        <Field Name="RunningBal1">
+          <DataField>RunningBal1</DataField>
+        </Field>
+        <Field Name="RunningBal1Format">
+          <DataField>RunningBal1Format</DataField>
+        </Field>
+        <Field Name="UserID_GLEntry">
+          <DataField>UserID_GLEntry</DataField>
+        </Field>
+        <Field Name="RunningBalanceCRorDR">
+          <DataField>RunningBalanceCRorDR</DataField>
+        </Field>
+        <Field Name="TotalDebitAmt">
+          <DataField>TotalDebitAmt</DataField>
+        </Field>
+        <Field Name="TotalDebitAmtFormat">
+          <DataField>TotalDebitAmtFormat</DataField>
+        </Field>
+        <Field Name="TotalCreditAmt">
+          <DataField>TotalCreditAmt</DataField>
+        </Field>
+        <Field Name="TotalCreditAmtFormat">
+          <DataField>TotalCreditAmtFormat</DataField>
+        </Field>
+        <Field Name="GlobalDim">
+          <DataField>GlobalDim</DataField>
+        </Field>
+        <Field Name="GLAccount">
+          <DataField>GLAccount</DataField>
+        </Field>
+        <Field Name="GLAccountName">
+          <DataField>GLAccountName</DataField>
+        </Field>
+        <Field Name="DebitTemp">
+          <DataField>DebitTemp</DataField>
+        </Field>
+        <Field Name="DebitTempFormat">
+          <DataField>DebitTempFormat</DataField>
+        </Field>
+        <Field Name="CreditTemp">
+          <DataField>CreditTemp</DataField>
+        </Field>
+        <Field Name="CreditTempFormat">
+          <DataField>CreditTempFormat</DataField>
+        </Field>
+        <Field Name="AccountNo">
+          <DataField>AccountNo</DataField>
+        </Field>
+        <Field Name="AccountName">
+          <DataField>AccountName</DataField>
+        </Field>
+        <Field Name="DocNo_TempGL">
+          <DataField>DocNo_TempGL</DataField>
+        </Field>
+        <Field Name="txtChequeNo">
+          <DataField>txtChequeNo</DataField>
+        </Field>
+        <Field Name="dtChequeDate">
+          <DataField>dtChequeDate</DataField>
+        </Field>
+        <Field Name="decTDSAmount">
+          <DataField>decTDSAmount</DataField>
+        </Field>
+        <Field Name="decTDSAmountFormat">
+          <DataField>decTDSAmountFormat</DataField>
+        </Field>
+        <Field Name="decTDSBaseAmount">
+          <DataField>decTDSBaseAmount</DataField>
+        </Field>
+        <Field Name="decTDSBaseAmountFormat">
+          <DataField>decTDSBaseAmountFormat</DataField>
+        </Field>
+        <Field Name="cdAssessCode">
+          <DataField>cdAssessCode</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>
