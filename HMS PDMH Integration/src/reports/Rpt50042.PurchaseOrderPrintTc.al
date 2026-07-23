@@ -136,6 +136,9 @@ report 50042 "Purchase Order TC Print"
             column(DelTerms; PurchaseHeader."EDC Delivery Terms")
             {
             }
+            column(No__of_Archived_Versions; "No. of Archived Versions")
+            {
+            }
             column(SupplierPANNo; SupplierPANNo)
             {
             }
@@ -184,6 +187,7 @@ report 50042 "Purchase Order TC Print"
             }
             trigger OnAfterGetRecord()
             begin
+                CalcFields("No. of Archived Versions");
                 IF Status = Status::Open then begin
                     txtPurchaseHeader := 'Approval Pending'
                 end else

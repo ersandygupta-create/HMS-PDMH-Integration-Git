@@ -11,7 +11,7 @@
       <am:Name>MSRB</am:Name>
       <am:Version>15.1.30001.02</am:Version>
     </am:UpdatedBy>
-    <am:LastModifiedTimestamp>2026-05-12T10:49:24.7935400Z</am:LastModifiedTimestamp>
+    <am:LastModifiedTimestamp>2026-07-23T11:36:40.5339931Z</am:LastModifiedTimestamp>
   </am:AuthoringMetadata>
   <AutoRefresh>0</AutoRefresh>
   <DataSources>
@@ -3509,9 +3509,9 @@
             <RepeatRowHeaders>true</RepeatRowHeaders>
             <KeepTogether>true</KeepTogether>
             <DataSetName>DataSet_Result</DataSetName>
-            <Top>1.64306in</Top>
+            <Top>1.88397in</Top>
             <Left>0.15041in</Left>
-            <Height>5.18354in</Height>
+            <Height>5.19048in</Height>
             <Width>7.60877in</Width>
             <Style>
               <Border>
@@ -4220,7 +4220,7 @@
                 </Paragraphs>
                 <Top>0in</Top>
                 <Left>0in</Left>
-                <Height>1.64306in</Height>
+                <Height>1.88397in</Height>
                 <Width>3.20304in</Width>
                 <Style>
                   <Border>
@@ -4495,10 +4495,37 @@
                       <TextAlign>Left</TextAlign>
                     </Style>
                   </Paragraph>
+                  <Paragraph>
+                    <TextRuns>
+                      <TextRun>
+                        <Value>No. Of Archive Version : </Value>
+                        <Style>
+                          <FontFamily>Segoe UI</FontFamily>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Bold</FontWeight>
+                          <Format>dd-MMM-yy</Format>
+                        </Style>
+                      </TextRun>
+                      <TextRun>
+                        <Value>=IIF(Fields!No__of_Archived_Versions.Value = 0,
+     "1",
+     Format(Fields!No__of_Archived_Versions.Value))</Value>
+                        <Style>
+                          <FontFamily>Segoe UI</FontFamily>
+                          <FontSize>8pt</FontSize>
+                          <FontWeight>Normal</FontWeight>
+                          <Format>dd-MMM-yy</Format>
+                        </Style>
+                      </TextRun>
+                    </TextRuns>
+                    <Style>
+                      <TextAlign>Left</TextAlign>
+                    </Style>
+                  </Paragraph>
                 </Paragraphs>
                 <Top>0in</Top>
                 <Left>3.20304in</Left>
-                <Height>1.64306in</Height>
+                <Height>1.88397in</Height>
                 <Width>4.40573in</Width>
                 <ZIndex>1</ZIndex>
                 <Style>
@@ -4535,7 +4562,7 @@
             <KeepTogether>true</KeepTogether>
             <Top>0in</Top>
             <Left>0.15041in</Left>
-            <Height>1.64306in</Height>
+            <Height>1.88397in</Height>
             <Width>7.60877in</Width>
             <ZIndex>2</ZIndex>
             <Style>
@@ -5041,6 +5068,9 @@ End Function</Code>
         </Field>
         <Field Name="DelTerms">
           <DataField>DelTerms</DataField>
+        </Field>
+        <Field Name="No__of_Archived_Versions">
+          <DataField>No__of_Archived_Versions</DataField>
         </Field>
         <Field Name="SupplierPANNo">
           <DataField>SupplierPANNo</DataField>
