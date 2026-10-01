@@ -11,6 +11,7 @@
             "startupObjectType": "Page",
             "breakOnError": "All",
             "launchBrowser": true,
+            "tenant": "f840ffa9-28a2-4c74-94fc-aca3bab52970",
             "enableLongRunningSqlStatements": true,
             "enableSqlInformationDebugger": true,
             "schemaUpdateMode": "ForceSync"
