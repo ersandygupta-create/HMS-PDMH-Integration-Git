@@ -343,6 +343,7 @@ report 50018 "Purchase Tax Register"
         ExcelBuf.AddColumn('Unit Code', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Dimension1
         ExcelBuf.AddColumn('Department Code', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Dimension2
         ExcelBuf.AddColumn('Document No.', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Document No.
+        ExcelBuf.AddColumn('Order No.', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Order No.        
         ExcelBuf.AddColumn('Receipt/Return No.', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);
         ExcelBuf.AddColumn('Vendor Invoice Date', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Document Date
         ExcelBuf.AddColumn('Document Type', false, '', true, false, true, '', ExcelBuf."Cell Type"::Text);//Document Type
@@ -426,6 +427,7 @@ report 50018 "Purchase Tax Register"
         ExcelBuf.AddColumn("Purch. Inv. Line"."Shortcut Dimension 1 Code", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//Dimension1
         ExcelBuf.AddColumn("Purch. Inv. Line"."Shortcut Dimension 2 Code", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//Dimension2
         ExcelBuf.AddColumn("Purch. Inv. Line"."Document No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//Document No
+        ExcelBuf.AddColumn("Purch. Inv. Line"."Order No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);
         ExcelBuf.AddColumn("Purch. Inv. Line"."Receipt No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);
         PurchInvHeader.Get("Purch. Inv. Line"."Document No.");
         HisPurchSalesHeader.Reset();
@@ -663,6 +665,7 @@ report 50018 "Purchase Tax Register"
         ExcelBuf.AddColumn("Purch. Cr. Memo Line"."Shortcut Dimension 1 Code", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//Dimension1
         ExcelBuf.AddColumn("Purch. Cr. Memo Line"."Shortcut Dimension 2 Code", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//Dimension2
         ExcelBuf.AddColumn("Purch. Cr. Memo Line"."Document No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);//Document No
+        ExcelBuf.AddColumn("Purch. Cr. Memo Line"."Order No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);
         ExcelBuf.AddColumn("Purch. Cr. Memo Line"."Return Shipment No.", false, '', false, false, false, '', ExcelBuf."Cell Type"::Text);
         PurchCrMemoHdr.Get("Purch. Cr. Memo Line"."Document No.");
         HisPurchSalesHeader.Reset();
