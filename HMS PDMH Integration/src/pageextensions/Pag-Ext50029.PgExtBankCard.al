@@ -1,4 +1,4 @@
-pageextension 50059 "PgExt_Bank Card" extends "Bank Account List"
+pageextension 50029 "PgExt_Bank Card" extends "Bank Account List"
 {
     actions
     {
