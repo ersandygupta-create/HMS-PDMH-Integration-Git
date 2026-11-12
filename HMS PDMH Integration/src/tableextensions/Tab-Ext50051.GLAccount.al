@@ -2,6 +2,31 @@ tableextension 50051 "GL Account" extends "G/L Account"
 {
     fields
     {
+        field(50000; "Level 1"; Text[50])
+        {
+            Caption = 'Level 1';
+            DataClassification = CustomerContent;
+        }
+        field(50001; "Level 2"; Text[50])
+        {
+            Caption = 'Level 2';
+            DataClassification = CustomerContent;
+        }
+        field(50002; "Level 3"; Text[50])
+        {
+            Caption = 'Level 3';
+            DataClassification = CustomerContent;
+        }
+        field(50003; "Level 4"; Text[50])
+        {
+            Caption = 'Level 4';
+            DataClassification = CustomerContent;
+        }
+        field(50004; "Level 5"; Text[50])
+        {
+            Caption = 'Level 5';
+            DataClassification = CustomerContent;
+        }
         field(50050; "Opening Balance"; Decimal)
         {
             CalcFormula = sum("G/L Entry".Amount where("G/L Account No." = field("No."),

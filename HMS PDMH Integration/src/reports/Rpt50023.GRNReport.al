@@ -23,7 +23,7 @@ report 50023 "GRN Report"
 
             trigger OnPreDataItem()
             begin
-                SetRange("Order Date", StartDate, EndDate);
+                SetRange("Posting Date", StartDate, EndDate);
 
                 Counter := 1;
                 if GSTINNo <> '' then begin
