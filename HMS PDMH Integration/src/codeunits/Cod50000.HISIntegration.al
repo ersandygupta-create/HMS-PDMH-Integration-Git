@@ -1097,6 +1097,8 @@ codeunit 50000 "EDC HIS Integration Mgmt."
         intLineNo: Integer;
         MOPLbl: Label 'Item Mapping Setup not found for Item Category %1.';
         DocumentTypeLbl: Label 'Setup not found for Entry No. %1.';
+        DimenValue3: Code[20];
+        DimenValue4: Code[20];
 
     begin
         IntegrationSetup.GET();
@@ -1166,6 +1168,12 @@ codeunit 50000 "EDC HIS Integration Mgmt."
 
                     if HISConsumptionEntry."Shortcut Dimension 1 Code" <> '' then
                         GenJournalLine.VALIDATE("Shortcut Dimension 2 Code", GetMappedDimension(HISConsumptionEntry."Shortcut Dimension 2 Code"));
+                    DimenValue3 := '';
+                    DimenValue3 := GetMappedDimension3(HISConsumptionEntry."Shortcut Dimension 3 Code");
+                    GenJournalLine.ValidateShortcutDimCode(3, DimenValue3);
+                    DimenValue4 := '';
+                    DimenValue4 := GetMappedDimension4(HISConsumptionEntry."Shortcut Dimension 4 Code");
+                    GenJournalLine.ValidateShortcutDimCode(4, DimenValue4);
 
                     GenJournalLine.VALIDATE("External Document No.", HISConsumptionEntry."External Document No.");
                     GenJournalLine."EDC Narration" := COPYSTR(HISConsumptionEntry."Line Narration", 1, 50);
@@ -4331,6 +4339,42 @@ codeunit 50000 "EDC HIS Integration Mgmt."
         DimensionMapping.Reset();
         DimensionMapping.SetRange(Type, DimensionMapping.Type::Dimension);
         DimensionMapping.SetRange("Dimension Code", LGeneralLedgerSetup."Shortcut Dimension 5 Code");
+        DimensionMapping.SetRange("HIS Code", HISCCode);
+        if DimensionMapping.FindFirst() then
+            exit(DimensionMapping."Department Code");
+    end;
+
+    local procedure GetMappedDimension3(HISCCode: Code[20]): Code[20]
+    var
+        LGeneralLedgerSetup: Record "General Ledger Setup";
+        DimensionMapping: Record "EDC HIS GL Accounts Mapping";
+    begin
+        if HISCCode = '' then
+            exit('');
+
+        LGeneralLedgerSetup.Get();
+
+        DimensionMapping.Reset();
+        DimensionMapping.SetRange(Type, DimensionMapping.Type::Dimension);
+        DimensionMapping.SetRange("Dimension Code", LGeneralLedgerSetup."Shortcut Dimension 3 Code");
+        DimensionMapping.SetRange("HIS Code", HISCCode);
+        if DimensionMapping.FindFirst() then
+            exit(DimensionMapping."Department Code");
+    end;
+
+    local procedure GetMappedDimension4(HISCCode: Code[20]): Code[20]
+    var
+        LGeneralLedgerSetup: Record "General Ledger Setup";
+        DimensionMapping: Record "EDC HIS GL Accounts Mapping";
+    begin
+        if HISCCode = '' then
+            exit('');
+
+        LGeneralLedgerSetup.Get();
+
+        DimensionMapping.Reset();
+        DimensionMapping.SetRange(Type, DimensionMapping.Type::Dimension);
+        DimensionMapping.SetRange("Dimension Code", LGeneralLedgerSetup."Shortcut Dimension 4 Code");
         DimensionMapping.SetRange("HIS Code", HISCCode);
         if DimensionMapping.FindFirst() then
             exit(DimensionMapping."Department Code");

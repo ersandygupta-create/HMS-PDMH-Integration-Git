@@ -409,6 +409,22 @@ table 50009 "EDC HIS Consumption Entries"
             Caption = 'Encounter No.';
             DataClassification = ToBeClassified;
         }
+        field(111; "Shortcut Dimension 3 Code"; Code[20])
+        {
+            CaptionClass = '1,2,3';
+            Caption = 'Shortcut Dimension 3 Code';
+            TableRelation = "Dimension Value".Code WHERE("Global Dimension No." = CONST(3));
+            ValidateTableRelation = false;
+            DataClassification = CustomerContent;
+        }
+        field(112; "Shortcut Dimension 4 Code"; Code[20])
+        {
+            CaptionClass = '1,2,4';
+            Caption = 'Shortcut Dimension 4 Code';
+            TableRelation = "Dimension Value".Code WHERE("Global Dimension No." = CONST(4));
+            ValidateTableRelation = false;
+            DataClassification = CustomerContent;
+        }
 
     }
     keys

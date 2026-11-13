@@ -131,6 +131,14 @@ page 50075 "EDC Consumption API"
                 {
                     Caption = 'Shortcut Dimension 2 Code';
                 }
+                field(shortcutDimension3Code; Rec."Shortcut Dimension 3 Code")
+                {
+                    Caption = 'Shortcut Dimension 3 Code';
+                }
+                field(shortcutDimension4Code; Rec."Shortcut Dimension 4 Code")
+                {
+                    Caption = 'Shortcut Dimension 4 Code';
+                }
                 field(lineNarration; Rec."Line Narration")
                 {
                     Caption = 'Line Narration';

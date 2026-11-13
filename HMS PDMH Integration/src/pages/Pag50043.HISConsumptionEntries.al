@@ -121,6 +121,16 @@ page 50043 "EDC HIS Consumption Entries"
                     ApplicationArea = all;
                     ToolTip = 'Specifies the value of the DepartmentName field.';
                 }
+                field("Shortcut Dimension 3 Code"; Rec."Shortcut Dimension 3 Code")
+                {
+                    ApplicationArea = all;
+                    ToolTip = 'Specifies the value of the Shortcut Dimension 3 Code field.';
+                }
+                field("Shortcut Dimension 4 Code"; Rec."Shortcut Dimension 4 Code")
+                {
+                    ApplicationArea = all;
+                    ToolTip = 'Specifies the value of the Shortcut Dimension 4 Code field.';
+                }
                 field(Speciality; Rec.Speciality)
                 {
                     ApplicationArea = all;
